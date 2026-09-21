@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Understand the tech behind a token. Plain-English explanations, traceable evidence, and the questions worth asking.">
+  <meta name="theme-color" content="#000000">
+  <title>mydevsaid | Your dev friend, with receipts</title>
+  <link rel="icon" type="image/svg+xml" href="/mascot.svg#idle">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/personal.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body class="personal-workspace">
+  <a class="skip-link" href="#chat-message">Skip to message</a>
+  <button id="sidebar-backdrop" class="sidebar-backdrop" type="button" aria-label="Close navigation" hidden></button>
+  <aside id="workspace-sidebar" class="workspace-sidebar" aria-label="Workspace navigation">
+    <div class="sidebar-brand"><a class="wordmark" href="#" aria-label="mydevsaid home"><span class="brand-mark mascot" aria-hidden="true"></span><svg class="pixel-wordmark" viewBox="0 0 52 9" aria-hidden="true"><use href="/mascot.svg#wordmark"/></svg></a><button id="close-sidebar" class="icon-button" type="button" aria-label="Close navigation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></div>
+    <p class="workspace-caption">Tech claims, in plain English.</p>
+    <button id="new-chat" class="new-investigation" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>New investigation<span class="key-hint">N</span></button>
+    <nav class="sidebar-content" aria-label="Investigations">
+      <details id="history-menu" class="history-menu" open><summary>Investigations<span id="history-count"></span></summary><div class="history-panel"><div id="chat-history"></div></div></details>
+    </nav>
+    <div class="sidebar-footer">
+      <details class="workspace-method"><summary><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 0c0 2-2.5 2-2.5 4m0 3v.1"/></svg>How it works</summary><p>Paste project links and context. Research runs in this chat, with sources attached to every report. Add information to update it, or ask about the evidence already collected.</p><p id="model-note">Loading analysis settings...</p></details>
+      <div class="personal-profile"><span class="profile-mark" aria-hidden="true">P</span><div><strong>Personal workspace</strong><span>Saved on this computer</span></div><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 4v3"/></svg></div>
+    </div>
+  </aside>
+  <div class="workspace-surface">
+    <header class="personal-header">
+      <div class="workspace-heading"><button id="toggle-sidebar" class="icon-button" type="button" aria-label="Open navigation" aria-controls="workspace-sidebar" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M9 4v16"/></svg></button><span class="workspace-section">Workspace</span><span class="breadcrumb-divider" aria-hidden="true">/</span><span id="workspace-title">New investigation</span></div>
+      <div class="header-status"><span id="connection-state" role="status">Connecting...</span><button id="mobile-new-chat" class="icon-button" type="button" aria-label="New investigation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button></div>
+    </header>
+    <main id="main" class="personal-main">
+      <section id="chat-welcome" class="personal-welcome" aria-labelledby="intro-title">
+        <div class="welcome-brand" role="img" aria-label="mydevsaid, inspect, explain, verify"><span class="welcome-symbol mascot" data-mascot="idle" aria-hidden="true"></span><div><svg class="pixel-wordmark" viewBox="0 0 52 9" aria-hidden="true"><use href="/mascot.svg#wordmark"/></svg><span class="brand-tagline" aria-hidden="true">inspect. explain. verify.</span></div></div>
+        <h1 id="intro-title">Your dev friend.<br>With receipts.</h1>
+        <p>Drop in a project. We'll unpack the tech,<br class="desktop-break"> trace the claims, and show you the evidence.</p>
+      </section>
+      <section id="chat-thread" class="personal-thread" aria-label="Investigation conversation"></section>
+      <section id="chat-decisions" aria-label="Investigation questions and next steps"></section>
+      <div id="reply-announcement" class="sr-only" role="status" aria-live="polite"></div>
+      <div id="composer-dock" class="composer-dock">
+        <div class="mascot-status"><span class="mascot" data-mascot="thinking" aria-hidden="true"></span><span id="mascot-status" role="status">mydev: Getting things ready...</span></div>
+        <div id="detected-info" class="detected-info" aria-label="Detected project information" hidden></div>
+        <form id="chat-form" class="personal-composer" aria-label="Investigate a project">
+          <label for="chat-message" class="sr-only">Project information or follow-up question</label>
+          <textarea id="chat-message" rows="3" maxlength="20000" required placeholder="Paste a website, contract address, or anything you want checked..." aria-describedby="composer-help" spellcheck="false"></textarea>
+          <div class="personal-composer-toolbar"><div class="composer-mode"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4M8 10.5h5m-2.5-2.5v5"/></svg><span>Investigate</span><span class="mode-divider"></span><span id="composer-context">Start with any project link</span></div><button id="send-message" class="button primary" type="submit" disabled>Send<span class="send-arrow" aria-hidden="true"></span></button></div>
+        </form>
+        <div id="chat-error" class="error-message" role="alert" hidden></div>
+        <div class="recovery-actions"><button id="retry-send" class="text-button" type="button" hidden>Retry message</button><button id="reconnect" class="text-button" type="button" hidden>Reconnect</button></div>
+        <div class="starter-prompts" aria-label="Ways to start"><button type="button" data-prompt="Help me understand this project. What does it claim to do, and what can you verify?\n\n"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M8 9h8m-8 4h5"/></svg>Explain a project</button><button type="button" data-prompt="Check this contract and explain who controls it.\n\n"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 4v5c0 4-4 7-8 9-4-2-8-5-8-9V7l8-4Z"/><path d="m9 12 2 2 4-4"/></svg>Check a contract</button><button type="button" data-prompt="Review these project claims against the available evidence. What holds up, and what is still unknown?\n\n"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h10l4 4v12H5V4Zm9 0v5h5M8 13h8m-8 3h5"/></svg>Review the claims</button></div>
+        <p id="composer-help" class="personal-help">A link is enough to start. <span>Ctrl or Cmd + Enter to send.</span></p>
+      </div>
+      <p class="workspace-footnote">Less jargon. More evidence.</p>
+    </main>
+  </div>
+  <noscript><p class="error-message">Enable JavaScript to use the investigation chat.</p></noscript>
+</body>
+</html>

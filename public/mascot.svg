@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="64" viewBox="0 0 512 64" shape-rendering="crispEdges">
+<title>mydevsaid pixel mascot sprite</title>
+<desc>Eight 64-pixel frames: idle, blink, scan high, scan low, thinking, waiting, happy, error.</desc>
+<defs>
+<g id="body">
+  <path fill="#159f54" d="M8 46h12v4h24v-4h12v4h4v8h-4v2H44v2H34v-4h-4v4H20v-2H8v-4H4v-6h4Z"/>
+  <path fill="#30d477" d="M8 46h12v4h24v-4h12v4h4v6h-4v2H44v2h-8v-4h-8v4H18v-2H8v-4H4v-4h4Z"/>
+  <path fill="#50e895" d="M8 48h4v6H8Zm12 4h6v2h-6v4h-4v-4h4Z"/>
+  <path fill="#159f54" d="M16 48h4v6h-4v4h-2v-6h2Zm28 0h4v4h2v6h-2v-4h-4Z"/>
+  <path fill="#e7466d" d="M30 4h6v2h4v2h4v4h4v2h4v4h4v4h2v4h2v14h-2v4h-4v4h-6v4H18v-2h-6v-4H8v-4H4v-4H2V28h2v-6h4v-4h4v-4h4v-4h6V8h4V6h4Z"/>
+  <path fill="#ff7188" d="M30 4h4v2h6v2h4v4h4v2h4v4h4v8h2v12h-2v4h-4v4h-8v4H20v-2h-8v-4H8v-6H4V28h2v-6h4v-4h4v-4h4v-4h6V8h6Z"/>
+  <path fill="#ff96a4" d="M30 4h4v4h-6v2h-6v4h-6v4h-4v4H8v-4h4v-4h4v-4h6V8h4V6h4Z"/>
+  <path fill="#fff2df" d="M22 18h20v2h6v4h4v4h2v12h-4v4h-6v2H20v-2h-6v-4h-4V28h2v-4h4v-4h6Z"/>
+  <path fill="#ff779a" d="M12 36h6v4h-6Zm34 0h6v4h-6Z"/>
+  <path fill="#16191c" fill-rule="evenodd" d="M12 22h16v2h2v4h4v-4h2v-2h16v2h2v2h2v2h-2v8h-2v2H36v-2h-2v-6h-4v6h-2v2H12v-2h-2v-8H8v-2h2v-2h2Zm0 4v8h16V26Zm24 0v8h16V26Z"/>
+</g>
+<g id="eyes"><path fill="#16191c" d="M18 28h4v6h-4Zm24 0h4v6h-4Z"/><path fill="#65696d" d="M18 28h2v2h-2Zm24 0h2v2h-2Z"/></g>
+<g id="smile"><path fill="#ba2347" d="M28 38h8v4h-2v2h-4v-2h-2Z"/><path fill="#ff3d65" d="M30 40h4v4h-4Z"/></g>
+<symbol id="wordmark" viewBox="0 0 52 9"><path fill="#ededf0" d="M0 2h1v1h-1ZM1 2h1v1h-1ZM3 2h1v1h-1ZM4 2h1v1h-1ZM0 3h1v1h-1ZM1 3h1v1h-1ZM2 3h1v1h-1ZM3 3h1v1h-1ZM4 3h1v1h-1ZM5 3h1v1h-1ZM0 4h1v1h-1ZM1 4h1v1h-1ZM3 4h1v1h-1ZM5 4h1v1h-1ZM6 4h1v1h-1ZM0 5h1v1h-1ZM1 5h1v1h-1ZM3 5h1v1h-1ZM5 5h1v1h-1ZM6 5h1v1h-1ZM0 6h1v1h-1ZM1 6h1v1h-1ZM3 6h1v1h-1ZM5 6h1v1h-1ZM6 6h1v1h-1ZM8 2h1v1h-1ZM9 2h1v1h-1ZM11 2h1v1h-1ZM12 2h1v1h-1ZM8 3h1v1h-1ZM9 3h1v1h-1ZM11 3h1v1h-1ZM12 3h1v1h-1ZM8 4h1v1h-1ZM9 4h1v1h-1ZM11 4h1v1h-1ZM12 4h1v1h-1ZM9 5h1v1h-1ZM10 5h1v1h-1ZM11 5h1v1h-1ZM12 5h1v1h-1ZM11 6h1v1h-1ZM12 6h1v1h-1ZM10 7h1v1h-1ZM11 7h1v1h-1ZM8 8h1v1h-1ZM9 8h1v1h-1ZM10 8h1v1h-1ZM17 0h1v1h-1ZM18 0h1v1h-1ZM17 1h1v1h-1ZM18 1h1v1h-1ZM15 2h1v1h-1ZM16 2h1v1h-1ZM17 2h1v1h-1ZM18 2h1v1h-1ZM14 3h1v1h-1ZM15 3h1v1h-1ZM17 3h1v1h-1ZM18 3h1v1h-1ZM14 4h1v1h-1ZM15 4h1v1h-1ZM17 4h1v1h-1ZM18 4h1v1h-1ZM14 5h1v1h-1ZM15 5h1v1h-1ZM17 5h1v1h-1ZM18 5h1v1h-1ZM15 6h1v1h-1ZM16 6h1v1h-1ZM17 6h1v1h-1ZM18 6h1v1h-1ZM21 2h1v1h-1ZM22 2h1v1h-1ZM23 2h1v1h-1ZM20 3h1v1h-1ZM21 3h1v1h-1ZM23 3h1v1h-1ZM24 3h1v1h-1ZM20 4h1v1h-1ZM21 4h1v1h-1ZM22 4h1v1h-1ZM23 4h1v1h-1ZM24 4h1v1h-1ZM20 5h1v1h-1ZM21 5h1v1h-1ZM21 6h1v1h-1ZM22 6h1v1h-1ZM23 6h1v1h-1ZM24 6h1v1h-1ZM26 2h1v1h-1ZM27 2h1v1h-1ZM29 2h1v1h-1ZM30 2h1v1h-1ZM26 3h1v1h-1ZM27 3h1v1h-1ZM29 3h1v1h-1ZM30 3h1v1h-1ZM26 4h1v1h-1ZM27 4h1v1h-1ZM29 4h1v1h-1ZM30 4h1v1h-1ZM27 5h1v1h-1ZM28 5h1v1h-1ZM29 5h1v1h-1ZM28 6h1v1h-1ZM33 2h1v1h-1ZM34 2h1v1h-1ZM35 2h1v1h-1ZM36 2h1v1h-1ZM32 3h1v1h-1ZM33 3h1v1h-1ZM33 4h1v1h-1ZM34 4h1v1h-1ZM35 4h1v1h-1ZM35 5h1v1h-1ZM36 5h1v1h-1ZM32 6h1v1h-1ZM33 6h1v1h-1ZM34 6h1v1h-1ZM35 6h1v1h-1ZM39 2h1v1h-1ZM40 2h1v1h-1ZM41 2h1v1h-1ZM41 3h1v1h-1ZM42 3h1v1h-1ZM39 4h1v1h-1ZM40 4h1v1h-1ZM41 4h1v1h-1ZM42 4h1v1h-1ZM38 5h1v1h-1ZM39 5h1v1h-1ZM41 5h1v1h-1ZM42 5h1v1h-1ZM39 6h1v1h-1ZM40 6h1v1h-1ZM41 6h1v1h-1ZM42 6h1v1h-1ZM44 0h1v1h-1ZM45 0h1v1h-1ZM44 2h1v1h-1ZM45 2h1v1h-1ZM44 3h1v1h-1ZM45 3h1v1h-1ZM44 4h1v1h-1ZM45 4h1v1h-1ZM44 5h1v1h-1ZM45 5h1v1h-1ZM44 6h1v1h-1ZM45 6h1v1h-1ZM50 0h1v1h-1ZM51 0h1v1h-1ZM50 1h1v1h-1ZM51 1h1v1h-1ZM48 2h1v1h-1ZM49 2h1v1h-1ZM50 2h1v1h-1ZM51 2h1v1h-1ZM47 3h1v1h-1ZM48 3h1v1h-1ZM50 3h1v1h-1ZM51 3h1v1h-1ZM47 4h1v1h-1ZM48 4h1v1h-1ZM50 4h1v1h-1ZM51 4h1v1h-1ZM47 5h1v1h-1ZM48 5h1v1h-1ZM50 5h1v1h-1ZM51 5h1v1h-1ZM48 6h1v1h-1ZM49 6h1v1h-1ZM50 6h1v1h-1ZM51 6h1v1h-1Z"/></symbol>
+</defs>
+<view id="idle" viewBox="0 0 64 64"/>
+<g transform="translate(0 0)"><use href="#body"/><use href="#eyes"/><use href="#smile"/></g>
+<view id="blink" viewBox="64 0 64 64"/>
+<g transform="translate(64 0)"><use href="#body"/><path fill="#16191c" d="M18 30h6v2h-6Zm22 0h6v2h-6Z"/><use href="#smile"/></g>
+<view id="scan-a" viewBox="128 0 64 64"/>
+<g transform="translate(128 0)"><use href="#body"/><use href="#eyes"/><use href="#smile"/><path fill="#79efbe" d="M12 26h16v2H12Zm24 0h16v2H36Z"/></g>
+<view id="scan-b" viewBox="192 0 64 64"/>
+<g transform="translate(192 0)"><use href="#body"/><use href="#eyes"/><use href="#smile"/><path fill="#79efbe" d="M12 32h16v2H12Zm24 0h16v2H36Z"/></g>
+<view id="thinking" viewBox="256 0 64 64"/>
+<g transform="translate(256 0)"><use href="#body"/><use href="#eyes" transform="translate(2 0)"/><path fill="#ba2347" d="M30 40h6v2h-6Z"/></g>
+<view id="waiting" viewBox="320 0 64 64"/>
+<g transform="translate(320 0)"><use href="#body"/><use href="#eyes" transform="translate(-2 0)"/><path fill="#ba2347" d="M30 38h4v4h-4Z"/></g>
+<view id="happy" viewBox="384 0 64 64"/>
+<g transform="translate(384 0)"><use href="#body"/><path fill="#16191c" d="M18 28h4v2h2v2h-2v-2h-4v2h-2v-2h2Zm24 0h4v2h2v2h-2v-2h-4v2h-2v-2h2Z"/><use href="#smile"/></g>
+<view id="error" viewBox="448 0 64 64"/>
+<g transform="translate(448 0)"><use href="#body"/><use href="#eyes"/><path fill="#ba2347" d="M28 42v-2h2v-2h4v2h2v2h-2v-2h-4v2Z"/></g>
+</svg>
